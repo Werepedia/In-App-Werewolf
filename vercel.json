@@ -1,0 +1,53 @@
+{
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "rewrites": [
+        {
+            "source": "/en/in-app/werewolf-guide/(.*)",
+            "destination": "/en/in-app/werewolf-guide/index.html"
+        },
+        {
+            "source": "/es/in-app/werewolf-guide/(.*)",
+            "destination": "/es/in-app/werewolf-guide/index.html"
+        },
+        {
+            "source": "/fr/in-app/werewolf-guide/(.*)",
+            "destination": "/fr/in-app/werewolf-guide/index.html"
+        },
+        {
+            "source": "/pt/in-app/werewolf-guide/(.*)",
+            "destination": "/pt/in-app/werewolf-guide/index.html"
+        },
+        {
+            "source": "/ar/in-app/werewolf-guide/(.*)",
+            "destination": "/ar/in-app/werewolf-guide/index.html"
+        },
+        {
+            "source": "/fa/in-app/werewolf-guide/(.*)",
+            "destination": "/fa/in-app/werewolf-guide/index.html"
+        },
+        {
+            "source": "/th/in-app/werewolf-guide/(.*)",
+            "destination": "/th/in-app/werewolf-guide/index.html"
+        },
+        {
+            "source": "/ms/in-app/werewolf-guide/(.*)",
+            "destination": "/ms/in-app/werewolf-guide/index.html"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "X-Frame-Options",
+                    "value": "ALLOWALL"
+                },
+                {
+                    "key": "Content-Security-Policy",
+                    "value": "frame-ancestors *"
+                }
+            ] 
+        }
+    ]
+}
