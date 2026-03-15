@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#1C1C1E">
+    <title>คู่มือชุมชน</title>
+
+    <link rel="icon" href="/favicon-Plato.ico" sizes="any">
+    <link rel="icon" href="/favicon-48-Plato.png" type="image/png" sizes="48x48">
+    <link rel="icon" href="/favicon-32-Plato.png" type="image/png" sizes="32x32">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/in-app/styles.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <nav class="scroll-nav">
+            <button class="nav-btn active" data-target="about">เกี่ยวกับ</button>
+            <button class="nav-btn" data-target="rules">กฎกติกา</button>
+            <button class="nav-btn" data-target="roles">บทบาท</button>
+            <button class="nav-btn" data-target="strategies">เคล็ดลับ</button>
+            <button class="nav-btn" data-target="faq">คำถาม</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="content-section active">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="header-with-logo">
+                        <h1>คู่มือชุมชน</h1>
+                        <img src="/assets/img/images/werewolf_icon.png" alt="หมาป่า" class="header-logo">
+                    </div>
+                    <p class="tagline">เคล็ดลับและเทคนิคจากผู้เล่นที่มีประสบการณ์</p>
+                    <p class="version-tag">เวอร์ชันเกม: 48.0.3</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>ยินดีต้อนรับ</h2>
+                    <p>คู่มือนี้จัดทำโดยผู้เล่นที่ใช้เวลานับไม่ถ้วนในการเล่นเกมหมาป่าและต้องการแบ่งปันสิ่งที่พวกเขาได้เรียนรู้ คิดว่าเป็นคำแนะนำจากเพื่อนที่เคยผ่านประสบการณ์มาแล้ว — ใครสักคนที่สามารถชี้ให้เห็นสิ่งเล็กๆ น้อยๆ ที่สร้างความแตกต่างอย่างมาก</p>
+                    <p>Plato ครอบคลุมกฎกติกาแล้ว แต่ยังมีอีกมากให้ค้นพบ: วิธีอ่านผู้เล่นคนอื่น เมื่อไหร่ควรพูด วิธีบลัฟอย่างน่าเชื่อถือ และผู้เล่นที่มีประสบการณ์คาดหวังอะไรจากกันและกันระหว่างการแข่งขัน</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>การเล่นอย่างมีน้ำใจสร้างความแตกต่าง</h2>
+                    <p>หลังจากการแข่งขันนับพันครั้ง ผู้เล่นได้พัฒนากฎพื้นฐานตามธรรมชาติที่ทำให้เกมสนุกและยุติธรรมสำหรับทุกคน ไม่มีใครชอบการแข่งขันที่บทบาทถูกเปิดเผยทันทีหรือที่ผู้เล่นคนหนึ่งทำลายประสบการณ์ของคนอื่น</p>
+                    <p>สิ่งง่ายๆ เช่น การรอจนถึงวินาทีสุดท้ายเพื่อโหวต (เพื่อไม่ให้เปิดเผยข้อมูลมากเกินไปตั้งแต่เนิ่นๆ) หรือการรู้ว่าเมื่อไหร่ควรพูดเมื่อไหร่ควรฟัง สามารถเปลี่ยนแปลงอย่างสิ้นเชิงว่าคุณและผู้อื่นจะสนุกกับเกมมากแค่ไหน นี่ไม่ใช่กฎอย่างเป็นทางการ — เป็นเพียงนิสัยที่ดีที่ทำให้ทุกการแข่งขันดีขึ้น</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>วิธีการชนะ</h2>
+                    <div class="two-column">
+                        <div class="team-block good">
+                            <img src="/assets/img/images/villager_sticker.webp" alt="ชาวบ้าน" class="team-sticker">
+                            <h3>ชาวบ้าน</h3>
+                            <p>กำจัดหมาป่าทั้งหมด</p>
+                        </div>
+                        <div class="team-block evil">
+                            <img src="/assets/img/images/werewolf_sticker.webp" alt="หมาป่า" class="team-sticker">
+                            <h3>หมาป่า</h3>
+                            <p>ฆ่าชาวบ้านให้เพียงพอที่จะมีจำนวนมากกว่า</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>สิ่งที่อยู่ภายใน</h2>
+                    <p><strong>กฎกติกา</strong> — ทบทวนอย่างรวดเร็วเกี่ยวกับวิธีการทำงานของเฟสกลางวันและกลางคืน รวมถึงรายละเอียดเวลาที่คุณอาจพลาด</p>
+                    <p><strong>บทบาท</strong> — วิเคราะห์อย่างละเอียดถึงความสามารถของแต่ละตัวละคร พร้อมเคล็ดลับวิธีเล่นให้ดี</p>
+                    <p><strong>เคล็ดลับ</strong> — กลยุทธ์สำหรับทั้งสองทีม ข้อผิดพลาดทั่วไปที่ควรหลีกเลี่ยง และวิธีอ่านผู้เล่นคนอื่น</p>
+                    <p><strong>คำถาม</strong> — คำตอบสำหรับคำถามที่เกิดขึ้นตลอดเวลาในการแข่งขัน</p>
+                </div>
+
+                <div class="content-block credits-block">
+                    <p class="credits">คู่มือชุมชนนี้สร้างโดย Werepedia — โครงการที่สร้างโดยผู้เล่น เพื่อผู้เล่น</p>
+                    <p class="last-updated">อัปเดตล่าสุด: มีนาคม 2026 | v1.1</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- RULES SECTION -->
+        <section id="rules" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>กฎกติกาเกม</h1>
+                    <p class="tagline">เชี่ยวชาญพื้นฐาน</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker day"><img src="/assets/img/images/sun-2-svgrepo-com.svg" alt="กลางวัน"></div>
+                            <div class="timeline-content">
+                                <h3 class="phase-title">เฟสกลางวัน <span class="duration">~110 วินาที</span></h3>
+                                <div class="phase-steps">
+                                    <div class="step">
+                                        <span class="step-time">20 วินาที</span>
+                                        <p><strong>เริ่มต้น:</strong> บทบาทถูกมอบหมาย</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">40 วินาที</span>
+                                        <p><strong>อภิปราย:</strong> แบ่งปันข้อมูล กล่าวหา ป้องกัน</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">20 วินาที</span>
+                                        <p><strong>โหวต:</strong> เลือกผู้ต้องสงสัย</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">20 วินาที</span>
+                                        <p><strong>การป้องกัน:</strong> ผู้ถูกกล่าวหาเปิดเผยบทบาท</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">7 วินาที</span>
+                                        <p><strong>การพิพากษา:</strong> โหวตฆ่าหรือปล่อย</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker night"><img src="/assets/img/images/moon-sleep-svgrepo-com.svg" alt="กลางคืน"></div>
+                            <div class="timeline-content">
+                                <h3 class="phase-title">เฟสกลางคืน <span class="duration">~30 วินาที</span></h3>
+                                <ul class="compact-list">
+                                    <li>หมาป่าโหวตว่าจะฆ่าใคร</li>
+                                    <li>บทบาทพิเศษใช้ความสามารถ</li>
+                                    <li><strong>พิมพ์การกระทำล่วงหน้า!</strong> ส่งในวินาทีสุดท้าย</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block highlight">
+                    <h3><img src="/assets/img/images/warning-circle-fill.svg" alt="คำเตือน" class="inline-icon warning-icon"> สำคัญ</h3>
+                    <p>อย่าเปิดเผยบทบาทโดยไม่จำเป็น! มันทำให้คุณเสี่ยงภัย ใช้ "การโหวตวินาทีสุดท้าย" ในวันแรก</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>อินเตอร์เฟซ</h2>
+                    
+                    <div class="interface-item">
+                        <h3><img src="/assets/img/images/scroll-fill.svg" alt="ประวัติ" class="inline-icon history-icon"> ประวัติ</h3>
+                        <p>คัมภีร์กระดาษตรงกลางแสดงทุกอย่างที่เกิดขึ้นในเกม: โหวต การกระทำ และเหตุการณ์เฉพาะบทบาท แต่ละเหตุการณ์มีหมายเลขตามลำดับเวลา</p>
+                        <div class="interface-image">
+                            <img src="/th/in-app/werewolf-guide/game_img/History_example.webp" alt="หน้าจอประวัติแสดงเหตุการณ์ในเกม" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="interface-item">
+                        <h3><img src="/assets/img/images/personal-card-svgrepo-com.svg" alt="โหวต" class="inline-icon voting-icon"> ประวัติการโหวต</h3>
+                        <p>แตะการ์ดของผู้เล่นใดก็ได้เพื่อดูโหวตสุดท้ายและใครโหวตให้พวกเขา ไม่เหมือนกับประวัติหลัก อันนี้แสดงเฉพาะการกระทำที่เด็ดขาด — สำคัญสำหรับการสังเกตรูปแบบหมาป่า</p>
+                        <div class="interface-image wide">
+                            <img src="/th/in-app/werewolf-guide/game_img/VotingHistory_example.webp" alt="ประวัติการโหวตแสดงโหวตของผู้เล่น" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>การตั้งค่าเกม</h2>
+                    
+                    <div class="setting-item compact">
+                        <p class="setting-desc">กำหนดค่าการแข่งขันของคุณก่อนเริ่ม ผู้สร้างห้องเลือกจำนวนผู้เล่นและการกระจายบทบาท</p>
+                        
+                        <div class="setting-row">
+                            <img src="/assets/img/images/users-fill.svg" alt="ผู้เล่น" class="setting-icon-svg"> <strong>ผู้เล่น:</strong> 7 หรือ 9 รูปแบบ 9 ผู้เล่นแนะนำสำหรับประสบการณ์เต็มรูปแบบ
+                        </div>
+                        
+                        <div class="setting-row">
+                            <img src="/assets/img/images/shuffle-fill.svg" alt="สุ่ม" class="setting-icon-svg"> <strong>บทบาทสุ่มทั้งหมด:</strong>
+                            <ul class="setting-options">
+                                <li><span class="option-tag on">เปิด</span> บทบาทสุ่มจาก 26 ตัวละครทั้งหมด</li>
+                                <li><span class="option-tag off">ปิด</span> การตั้งค่าคลาสสิก: ชาวบ้าน 3 คน + หมอ + ผู้พินิจ vs หมาป่า 2 ตัว + หมาป่าอัลฟ่า</li>
+                            </ul>
+                        </div>
+
+                        <div class="settings-image compact">
+                            <img src="/th/in-app/werewolf-guide/game_img/Settings_example.webp" alt="หน้าจอการตั้งค่าเกม" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROLES SECTION -->
+        <section id="roles" class="content-section">
+            <div class="section-container roles-container">
+                <div class="section-header">
+                    <h1>บทบาท</h1>
+                    <p class="tagline">สำรวจตัวละครทั้งหมด</p>
+                </div>
+
+                <!-- Team Toggle -->
+                <div class="team-toggle">
+                    <button class="team-btn active" data-team="good">
+                        <span class="team-indicator good"></span>
+                        บทบาทฝ่ายดี
+                    </button>
+                    <button class="team-btn" data-team="evil">
+                        <span class="team-indicator evil"></span>
+                        บทบาทฝ่ายร้าย
+                    </button>
+                </div>
+
+                <!-- Role Detail Panel -->
+                <div class="role-detail-panel">
+                    <!-- Role Selector (hidden data) -->
+                    <div class="roles-data" style="display: none;">
+                        <div class="role-data-item good-role active" data-role="seer" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="doctor" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="knight" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="princess" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="hunter" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="necromancer" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="king" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="jester" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="lycan" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="mayor" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="assassin" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="town-crier" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="lovers" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="druid" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="mystic" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="thief" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="harlot" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="bard" data-team="good"></div>
+                        <div class="role-data-item evil-role" data-role="alpha" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="werewolf" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="vampire" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="witch" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="siren" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="shapeshifter" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="nightmare" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="wolf-shaman" data-team="evil"></div>
+                    </div>
+
+                    <!-- Image Carousel -->
+                    <div class="role-image-carousel">
+                        <button class="carousel-arrow panel-arrow panel-prev">‹</button>
+                        <div class="role-image-wrapper">
+                            <img id="detail-image" src="https://platoapp.com/images/a8e44450-4363-11ef-bfb7-a598d323cbfc-card_seer.webp" alt="">
+                        </div>
+                        <button class="carousel-arrow panel-arrow panel-next">›</button>
+                    </div>
+
+                    <!-- Role Info -->
+                    <div class="role-detail-header">
+                        <h2 id="detail-name">ผู้พินิจ</h2>
+                        <span id="detail-team" class="detail-team-badge good">บทบาทฝ่ายดี</span>
+                    </div>
+
+                    <div class="role-detail-content">
+                        <div class="detail-section">
+                            <h3>ความสามารถ</h3>
+                            <p id="detail-ability">ทุกคืน ผู้พินิจสามารถตรวจสอบผู้เล่นเพื่อรู้ว่าพวกเขาอยู่ทีมไหน บทบาทอย่างหมาป่าอัลฟ่า ผู้เปลี่ยนร่าง ตลก และไลแคน ส่งผลกระทบบางส่วนหรือทั้งหมดต่อความน่าเชื่อถือของข้อมูลที่บทบาทนี้สามารถให้ได้</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>กลยุทธ์และเคล็ดลับ</h3>
+                            <ul id="detail-tips">
+                                <li>อ่านทุกอย่างที่พูดอย่างระมัดระวังเพื่อรู้ว่าจะตรวจสอบใคร</li>
+                                <li>อย่าเปิดเผยข้อมูลโดยไม่จำเป็น ตรวจสอบให้แน่ใจว่าไม่มีบทบาทอย่างหมาป่าชามันก่อนเปิดเผยข้อมูล</li>
+                                <li>มีทัศนคติที่ดีและทำให้ตัวเองได้รับการรับฟัง</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section advanced">
+                            <h3>การเล่นขั้นสูง</h3>
+                            <p id="detail-advanced">ผู้พินิจสามารถทำการเล่นที่เสี่ยง เช่น การกล่าวหาเท็จเพื่อกดดันผู้เล่น หากพวกเขาเปิดเผยตัวเองทันทีเมื่อถูกกล่าวหา การถอยกลับและให้ข้อมูลจริงเป็นสิ่งสำคัญ</p>
+                        </div>
+                        
+                        <div class="detail-section warning" id="detail-warning-section" style="display: none;">
+                            <h3>คำเตือน</h3>
+                            <p id="detail-warning"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STRATEGIES SECTION -->
+        <section id="strategies" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>เคล็ดลับมือโปร</h1>
+                    <p class="tagline">ยกระดับเกมของคุณ</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/stopwatch-svgrepo-com.svg" alt="จับเวลา" class="tip-icon-svg">
+                            <h3>การโหวตวินาทีสุดท้าย</h3>
+                        </div>
+                        <p>โหวตตอนท้ายสุดของวันแรก วิธีนี้ป้องกันการเปิดเผยบทบาทหลายตัวและทำให้เกมสมดุลและสนุกสำหรับทั้งสองทีม ยังช่วยพัฒนาทักษะการอ่านบทบาทโดยไม่รู้ตัว — เมื่อคุณโหวต คุณต้องมีความคิดบางอย่างว่ากำลังโหวตให้ใคร ฝึกสมองให้เชื่อมโยงบทบาทกับพฤติกรรม</p>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/typing-svgrepo-com.svg" alt="พิมพ์" class="tip-icon-svg">
+                            <h3>พิมพ์ล่วงหน้าทุกอย่าง</h3>
+                        </div>
+                        <p>เขียนการกระทำกลางคืนของคุณก่อนเวลาจะหมด ส่งในวินาทีสุดท้ายเพื่อพิสูจน์บทบาทและป้องกันการขโมย</p>
+                        <div class="example-box">
+                            <code>"ฉันคือหมอ กำลังช่วยผู้เล่นX"</code>
+                        </div>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/eyes-fill.svg" alt="อ่าน" class="tip-icon-svg">
+                            <h3>อ่านประวัติ</h3>
+                        </div>
+                        <p>ตรวจสอบประวัติการโหวตและแชท ความขัดแย้งและรูปแบบเผยให้เห็นหมาป่า ประวัติส่วนตัวของคุณ — สิ่งที่คุณพูด วิธีที่คุณโหวต ใครที่คุณป้องกัน — เป็นโล่ของคุณ การสามารถขายความสอดคล้องของคุณคือวิธีที่คุณรอดชีวิต</p>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/mask-happy-fill.svg" alt="เหยื่อ" class="tip-icon-svg">
+                            <h3>การใช้เหยื่อ</h3>
+                        </div>
+                        <p>ปลอมบทบาทที่มีค่าในเวลากลางคืนเพื่อดึงดูดการโจมตีของหมาป่า มีประโยชน์สำหรับนักล่า อัศวิน หรือราชาเพื่อปกป้องบทบาทสำคัญที่แท้จริง หากเหยื่อเคยได้ผลมาก่อน ยึดมั่นในท่าทีนั้น — แต่อย่าโกหกมากจนทีมของคุณลงโทษคุณ</p>
+                        <div class="example-box">
+                            <code>"นักกวีอยู่ที่นี่ กำลังมนต์ผู้เล่นX"</code>
+                            <p style="margin-top: 8px; font-size: 13px; color: var(--text-tertiary);">ในฐานะบทบาทอย่างนักล่า ส่งข้อความนี้ 5 วินาทีก่อนกลางคืนจะจบ ตรวจสอบให้แน่ใจว่าบทบาทไม่อยู่ในเกม หรือเตรียมอธิบายตัวเองหลังจากนั้น</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="content-block">
+                    <h2>กลยุทธ์ทั่วไป (กลางวันและกลางคืน)</h2>
+                    <p class="section-intro">การรู้ว่าแต่ละบทบาททำอะไรไม่เพียงพอ — คุณต้องรู้ว่าจะประพฤติอย่างไร ทุกการตัดสินใจมีความสำคัญ เราแบ่งกลยุทธ์เป็นเฟสกลางวันและกลางคืน</p>
+                </div>
+
+                <div class="content-block">
+                    <h2 class="strategies-title"><img src="/assets/img/images/sun-2-svgrepo-com.svg" alt="กลางวัน" class="title-icon"> กลยุทธ์กลางวัน</h2>
+                    <p class="section-intro">กลางวันคือเวลาที่ทุกคนพูด กล่าวหา ป้องกัน และโหวต เชี่ยวชาญเฟสนี้โดยการรักษาความใจเย็นและดูน่าเชื่อถือ</p>
+                    
+                    <div class="strategy-cards">
+                        <div class="strategy-card good">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/villager_sticker.webp" alt="ชาวบ้าน" class="strategy-icon">
+                                <h4>ชาวบ้าน</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>อย่าไว้ใจอย่างบอดเบลอ</strong> แม้ผู้เล่นที่น่าเชื่อถืออาจกำลังแสดงละคร สงสัยและประเมินเสมอ</li>
+                                <li><strong>วิเคราะห์ความขัดแย้งและความเงียบ</strong> หมาป่าอาจเงียบเกินไปหรือพูดมากเกินไปเพื่อจัดการ</li>
+                                <li><strong>อย่าบังคับให้เปิดเผย</strong> การขอให้ทุกคนเปิดเผยบทบาทช่วยหมาป่าเท่านั้น</li>
+                                <li><strong>เก็บความสงสัยไว้</strong> การพูดเร็วเกินไปให้ผู้ต้องสงสัยปรับตัว การจับเวลาคือทุกสิ่ง</li>
+                                <li><strong>คิดก่อนโหวต</strong> การโหวตวินาทีสุดท้ายในวันแรกไม่ใช่แค่ประเพณี — มันคือกลยุทธ์ที่สร้างความโกลาหลที่มีประโยชน์</li>
+                            </ul>
+                        </div>
+
+                        <div class="strategy-card evil">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/werewolf_sticker.webp" alt="หมาป่า" class="strategy-icon">
+                                <h4>หมาป่า</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>ปรากฏตัวเป็นชาวบ้าน</strong> สร้างความไว้ใจโดยไม่ดูบังคับ อย่าโดดเด่นมากหรือหายไป</li>
+                                <li><strong>มีส่วนร่วมเหมือนคุณเป็นฝ่ายดี</strong> แบ่งปันความคิดเห็น เสนอทฤษฎี แสดงความสงสัย</li>
+                                <li><strong>ปกป้องเพื่อนร่วมทีมอย่างละเอียดอ่อน</strong> แต่จำไว้: บางครั้งการเสียสละเพื่อนร่วมทีมช่วยให้ชนะ</li>
+                                <li><strong>รักษาความสอดคล้อง</strong> ความผิดพลาดทางตรรกะเปิดเผยคุณ หากคุณโกหก ทำซ้ำเรื่องของคุณ</li>
+                                <li><strong>โหวตเชิงกลยุทธ์</strong> บางครั้งปล่อยให้หมาป่าเพื่อนตายชำระล้างภาพลักษณ์ของคุณ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2 class="strategies-title"><img src="/assets/img/images/moon-sleep-svgrepo-com.svg" alt="กลางคืน" class="title-icon"> กลยุทธ์กลางคืน</h2>
+                    <p class="section-intro">กลางคืนไม่ใช่การหยุดพัก — มันเป็นช่วงเวลาที่มีเทคนิคมากที่สุด สิ่งที่เกิดขึ้นในวินาทีเหล่านั้นสามารถนำความได้เปรียบที่เด็ดขาด หรือความล่มสลายมาให้</p>
+                    
+                    <div class="strategy-cards">
+                        <div class="strategy-card good">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/villager_sticker.webp" alt="ชาวบ้าน" class="strategy-icon">
+                                <h4>ชาวบ้าน</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>พิมพ์ล่วงหน้าอย่างชัดเจน</strong> ระบุบทบาท เป้าหมาย และเหตุผลสั้นๆ ของคุณ ความเร็วสำคัญ</li>
+                                <li><strong>ทำให้เข้าใจผิดด้วยเหยื่อ</strong> ใช้การอ้างสิทธิ์บทบาทปลอมเพื่อดึงดูดการโจมตีของหมาป่าและปกป้องบทบาทที่มีค่าจริง</li>
+                                <li><strong>ปกป้องบทบาทสำคัญด้วยทุกวิถีทาง</strong> หากคุณรู้ว่าใครมีบทบาทสำคัญ (เช่น ผู้พินิจ) รักษาพวกเขาให้มีชีวิต</li>
+                                <li><strong>ทำซ้ำรูปแบบที่ประสบความสำเร็จ</strong> หากเหยื่อเคยได้ผลมาก่อน ยึดมั่นในนั้น แต่อย่าสับสนทีมของคุณเอง</li>
+                            </ul>
+                        </div>
+
+                        <div class="strategy-card evil">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/werewolf_sticker.webp" alt="หมาป่า" class="strategy-icon">
+                                <h4>หมาป่า</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>หลอกลวงด้วยการพิมพ์ล่วงหน้าปลอม</strong> หมาป่าที่อันตรายที่สุดดูดีในเวลากลางคืน</li>
+                                <li><strong>วางแผนการฆ่าที่มีผลกระทบ</strong> เลือกเป้าหมายที่ทำลายห่วงโซ่ข้อมูลหรือก่อให้เกิดความตื่นตระหนก</li>
+                                <li><strong>เปลี่ยนรูปแบบหากถูกสงสัย</strong> ปรับพฤติกรรม สร้างเอกลักษณ์บทบาท กลายเป็นกระตือรือร้นมากขึ้น</li>
+                                <li><strong>ใช้ประโยชน์จากความผิดพลาดของทีมดี</strong> บางครั้งคุณไม่ต้องโกหก — เพียงปลูกความสงสัยรอบๆ ความผิดพลาดของพวกเขา</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>ข้อผิดพลาดทั่วไป</h2>
+                    <p class="section-intro">หลีกเลี่ยงรูปแบบเหล่านี้ที่ทำร้ายทีมของคุณ:</p>
+                    
+                    <div class="mistakes-grid">
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/user-sound-fill.svg" alt="พูด" class="mistake-icon-svg">
+                            <h4>พูดมากเกินไป</h4>
+                            <p>การเปิดเผยโดยไม่จำเป็นหรืออธิบายมากเกินไปทำให้คุณดูป้องกันตัว</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/chat-circle-slash-fill.svg" alt="เงียบ" class="mistake-icon-svg">
+                            <h4>เงียบอยู่</h4>
+                            <p>ไม่มีส่วนร่วมเพราะกลัว ดีกว่าพูดอะไรที่สมเหตุสมผลมากกว่าไม่พูดอะไรเลย</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/lightning-fill.svg" alt="อารมณ์" class="mistake-icon-svg">
+                            <h4>โหวตตามอารมณ์</h4>
+                            <p>โหวตโดยไม่มีพื้นฐานหรือเพราะไม่ชอบส่วนตัวทำลายการแข่งขัน</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/smiley-x-eyes-fill.svg" alt="ช้า" class="mistake-icon-svg">
+                            <h4>การพิมพ์ล่วงหน้าที่แย่</h4>
+                            <p>พิมพ์ช้าหรือมีข้อผิดพลาดลดความน่าเชื่อถือและเสี่ยงต่อการถูกขโมยบทบาท</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>เล่นหลังจากตาย</h2>
+                    <div class="after-death-content">
+                        <p class="section-intro">ตายไม่ใช่แพ้ ผู้เล่นที่ดีสามารถเตรียมเส้นทางไว้สำหรับทีมของพวกเขาแม้หลังจากตาย</p>
+                        <p>คำพูดและโหวตสุดท้ายของคุณยังสามารถช่วยทีมของคุณหรือฝังพวกเขา อย่าออกจากเกมทันที — เข้าใจว่าคุณกำลังเล่นนอกเหนือการอยู่รอดของตัวเอง การเข้าใจสิ่งนี้หมายถึงการเล่นนอกเหนือตัวตนของคุณ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section id="faq" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>คำถามที่พบบ่อย</h1>
+                    <p class="tagline">คำถามทั่วไป</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>ฉันควรเปิดเผยบทบาทเมื่อไหร่?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>เฉพาะเมื่อจำเป็น: ในระหว่างการป้องกันหากถูกพิจารณาคดี หรือเชิงกลยุทธ์เพื่อช่วยทีมของคุณ อย่าเปิดเผยเพียงเพราะมีคนขอ</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>"การพิมพ์ล่วงหน้า" คืออะไร?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>พิมพ์การกระทำกลางคืนของคุณก่อนเวลาจะหมดและส่งในวินาทีสุดท้าย วิธีนี้พิสูจน์ความแท้จริงและป้องกันการขโมยบทบาท</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>ทำไมต้องโหวตวินาทีสุดท้าย?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>ป้องกันการเปิดเผยบทบาทจำนวนมากในวันแรก ทำให้เกมสนุกสำหรับทุกคน และช่วยให้คุณพัฒนาทักษะการอ่านบทบาท</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>ฉันสามารถเล่นหลังจากตายได้ไหม?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>ได้! คำพูดและโหวตสุดท้ายของคุณยังสามารถช่วยทีมของคุณ อย่าออกจากเกมทันที</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>ราชวงศ์คืออะไร?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>อัศวิน เจ้าหญิง และตลก ตราบใดที่อย่างใดอย่างหนึ่งยังมีชีวิตอยู่ ราชาก็ไม่สามารถถูกฆ่าโดยหมาป่าได้ในตอนกลางคืน</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>ผู้พินิจเห็นบทบาทต่างๆ อย่างไร?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>หมาป่าอัลฟ่าปรากฏเป็นฝ่ายดี ผู้เปลี่ยนร่างและตลกปรากฏแบบสุ่ม ไลแคนปรากฏเป็นฝ่ายดีแม้หลังจากแปลงร่าง</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/th/in-app/werewolf-guide/script_th.js"></script>
+</body>
+</html>

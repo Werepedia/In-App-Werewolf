@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#1C1C1E">
+    <title>Guide Communautaire</title>
+
+    <link rel="icon" href="/favicon-Plato.ico" sizes="any">
+    <link rel="icon" href="/favicon-48-Plato.png" type="image/png" sizes="48x48">
+    <link rel="icon" href="/favicon-32-Plato.png" type="image/png" sizes="32x32">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/in-app/styles.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <nav class="scroll-nav">
+            <button class="nav-btn active" data-target="about">À propos</button>
+            <button class="nav-btn" data-target="rules">Règles</button>
+            <button class="nav-btn" data-target="roles">Rôles</button>
+            <button class="nav-btn" data-target="strategies">Conseils</button>
+            <button class="nav-btn" data-target="faq">FAQ</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="content-section active">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="header-with-logo">
+                        <h1>Guide Communautaire</h1>
+                        <img src="/assets/img/images/werewolf_icon.png" alt="Loup-Garou" class="header-logo">
+                    </div>
+                    <p class="tagline">Conseils et astuces de joueurs expérimentés</p>
+                    <p class="version-tag">Version du jeu : 48.0.3</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Bienvenue</h2>
+                    <p>Ce guide a été élaboré par des joueurs qui ont passé d'innombrables heures à jouer à Loup-Garou et souhaitent partager ce qu'ils ont appris. Considérez-le comme des conseils d'un ami qui connaît le terrain — quelqu'un qui peut vous indiquer les petits détails qui font toute la différence.</p>
+                    <p>Plato couvre les règles, mais il y a tellement plus à découvrir : comment lire les autres joueurs, quand prendre la parole, comment tromper de manière convaincante, et ce que les joueurs expérimentés attendent les uns des autres pendant une partie.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Jouer Fair-play Fait Toute la Différence</h2>
+                    <p>Après des milliers de parties, les joueurs ont naturellement développé des règles de base qui maintiennent les parties amusantes et équitables pour tout le monde. Personne n'aime une partie où les rôles sont révélés instantanément ou où un joueur gâche l'expérience des autres.</p>
+                    <p>Des choses simples comme attendre la dernière seconde pour voter (pour ne pas révéler trop d'informations tôt), ou savoir quand parler par rapport à quand écouter, peuvent complètement changer la façon dont vous et les autres appréciez le jeu. Ce ne sont pas des règles officielles — juste de bonnes habitudes qui rendent chaque partie meilleure.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Comment Gagner</h2>
+                    <div class="two-column">
+                        <div class="team-block good">
+                            <img src="/assets/img/images/villager_sticker.webp" alt="Villageois" class="team-sticker">
+                            <h3>Villageois</h3>
+                            <p>Éliminer tous les loups</p>
+                        </div>
+                        <div class="team-block evil">
+                            <img src="/assets/img/images/werewolf_sticker.webp" alt="Loup-Garou" class="team-sticker">
+                            <h3>Loups-Garous</h3>
+                            <p>Tuer assez de villageois pour les surpasser en nombre</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>Contenu</h2>
+                    <p><strong>Règles</strong> — Un rappel rapide sur le fonctionnement des phases Jour et Nuit, plus quelques détails de timing que vous auriez pu manquer.</p>
+                    <p><strong>Rôles</strong> — Description complète des capacités de chaque personnage, avec des conseils pour bien les jouer.</p>
+                    <p><strong>Conseils</strong> — Stratégies pour les deux équipes, erreurs courantes à éviter, et comment lire les autres joueurs.</p>
+                    <p><strong>FAQ</strong> — Réponses aux questions qui reviennent constamment pendant les parties.</p>
+                </div>
+
+                <div class="content-block credits-block">
+                    <p class="credits">Ce Guide Communautaire a été créé par Werepedia — un projet construit par des joueurs, pour des joueurs.</p>
+                    <p class="last-updated">Dernière mise à jour : Mars 2026 | v1.1</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- RULES SECTION -->
+        <section id="rules" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>Règles du Jeu</h1>
+                    <p class="tagline">Maîtrisez les bases</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker day"><img src="/assets/img/images/sun-2-svgrepo-com.svg" alt="Jour"></div>
+                            <div class="timeline-content">
+                                <h3 class="phase-title">Phase Jour <span class="duration">~110s</span></h3>
+                                <div class="phase-steps">
+                                    <div class="step">
+                                        <span class="step-time">20s</span>
+                                        <p><strong>Début :</strong> Les rôles sont attribués</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">40s</span>
+                                        <p><strong>Discussion :</strong> Partagez des infos, accusez, défendez</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">20s</span>
+                                        <p><strong>Vote :</strong> Sélectionnez un suspect</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">20s</span>
+                                        <p><strong>Défense :</strong> L'accusé révèle son rôle</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">7s</span>
+                                        <p><strong>Jugement :</strong> Votez pour tuer ou épargner</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker night"><img src="/assets/img/images/moon-sleep-svgrepo-com.svg" alt="Nuit"></div>
+                            <div class="timeline-content">
+                                <h3 class="phase-title">Phase Nuit <span class="duration">~30s</span></h3>
+                                <ul class="compact-list">
+                                    <li>Les loups votent pour savoir qui tuer</li>
+                                    <li>Les rôles spéciaux utilisent leurs capacités</li>
+                                    <li><strong>Pré-écrivez votre action !</strong> Envoyez à la dernière seconde</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block highlight">
+                    <h3><img src="/assets/img/images/warning-circle-fill.svg" alt="Attention" class="inline-icon warning-icon"> Important</h3>
+                    <p>Ne révélez pas votre rôle inutilement ! Cela vous met en danger. Utilisez le "vote de dernière seconde" le Jour 1.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Interface</h2>
+                    
+                    <div class="interface-item">
+                        <h3><img src="/assets/img/images/scroll-fill.svg" alt="Historique" class="inline-icon history-icon"> Historique</h3>
+                        <p>Le parchemin au centre affiche tout ce qui se passe dans la partie : votes, actions et événements spécifiques aux rôles. Chaque événement est numéroté chronologiquement.</p>
+                        <div class="interface-image">
+                            <img src="/fr/in-app/werewolf-guide/game_img/History_example.webp" alt="Écran Historique montrant les événements de jeu" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="interface-item">
+                        <h3><img src="/assets/img/images/personal-card-svgrepo-com.svg" alt="Vote" class="inline-icon voting-icon"> Historique des Votes</h3>
+                        <p>Appuyez sur la carte de n'importe quel joueur pour voir ses votes finaux et qui a voté pour lui. Contrairement à l'Historique principal, cela n'affiche que les actions définitives — essentiel pour repérer les schémas de loups.</p>
+                        <div class="interface-image wide">
+                            <img src="/fr/in-app/werewolf-guide/game_img/VotingHistory_example.webp" alt="Historique des Votes montrant les votes des joueurs" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>Paramètres de Jeu</h2>
+                    
+                    <div class="setting-item compact">
+                        <p class="setting-desc">Configurez votre partie avant de commencer. Le créateur de la salle choisit le nombre de joueurs et la distribution des rôles.</p>
+                        
+                        <div class="setting-row">
+                            <img src="/assets/img/images/users-fill.svg" alt="Joueurs" class="setting-icon-svg"> <strong>Joueurs :</strong> 7 ou 9. Le format 9 joueurs est recommandé pour l'expérience complète.
+                        </div>
+                        
+                        <div class="setting-row">
+                            <img src="/assets/img/images/shuffle-fill.svg" alt="Aléatoire" class="setting-icon-svg"> <strong>Tous les rôles aléatoires :</strong>
+                            <ul class="setting-options">
+                                <li><span class="option-tag on">ON</span> Rôles aléatoires parmi les 26 personnages</li>
+                                <li><span class="option-tag off">OFF</span> Configuration classique : 3 Villageois + Doctor + Seer vs 2 Werewolves + Alpha Wolf</li>
+                            </ul>
+                        </div>
+
+                        <div class="settings-image compact">
+                            <img src="/fr/in-app/werewolf-guide/game_img/Settings_example.webp" alt="Écran Paramètres de Jeu" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROLES SECTION -->
+        <section id="roles" class="content-section">
+            <div class="section-container roles-container">
+                <div class="section-header">
+                    <h1>Rôles</h1>
+                    <p class="tagline">Explorez tous les personnages</p>
+                </div>
+
+                <!-- Team Toggle -->
+                <div class="team-toggle">
+                    <button class="team-btn active" data-team="good">
+                        <span class="team-indicator good"></span>
+                        Rôles Bons
+                    </button>
+                    <button class="team-btn" data-team="evil">
+                        <span class="team-indicator evil"></span>
+                        Rôles Mauvais
+                    </button>
+                </div>
+
+                <!-- Role Detail Panel -->
+                <div class="role-detail-panel">
+                    <!-- Role Selector (hidden data) -->
+                    <div class="roles-data" style="display: none;">
+                        <div class="role-data-item good-role active" data-role="seer" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="doctor" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="knight" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="princess" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="hunter" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="necromancer" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="king" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="jester" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="lycan" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="mayor" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="assassin" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="town-crier" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="lovers" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="druid" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="mystic" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="thief" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="harlot" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="bard" data-team="good"></div>
+                        <div class="role-data-item evil-role" data-role="alpha" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="werewolf" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="vampire" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="witch" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="siren" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="shapeshifter" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="nightmare" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="wolf-shaman" data-team="evil"></div>
+                    </div>
+
+                    <!-- Image Carousel -->
+                    <div class="role-image-carousel">
+                        <button class="carousel-arrow panel-arrow panel-prev">‹</button>
+                        <div class="role-image-wrapper">
+                            <img id="detail-image" src="https://platoapp.com/images/a8e44450-4363-11ef-bfb7-a598d323cbfc-card_seer.webp" alt="">
+                        </div>
+                        <button class="carousel-arrow panel-arrow panel-next">›</button>
+                    </div>
+
+                    <!-- Role Info -->
+                    <div class="role-detail-header">
+                        <h2 id="detail-name">Seer</h2>
+                        <span id="detail-team" class="detail-team-badge good">Rôle Bon</span>
+                    </div>
+
+                    <div class="role-detail-content">
+                        <div class="detail-section">
+                            <h3>Capacité</h3>
+                            <p id="detail-ability">Chaque nuit, le Seer peut vérifier un joueur pour savoir à quelle équipe il appartient. Des rôles comme Alpha Wolf, Shapeshifter, Jester et Lycan affectent partiellement ou totalement l'authenticité des informations que ce rôle peut fournir.</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Stratégie et Conseils</h3>
+                            <ul id="detail-tips">
+                                <li>Lisez attentivement tout ce qui est dit pour savoir qui vérifier.</li>
+                                <li>Ne révélez pas d'informations inutilement. Assurez-vous qu'il n'y a pas de rôles comme Wolf Shaman avant de révéler des infos.</li>
+                                <li>Ayez de l'attitude et faites-vous entendre.</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section advanced">
+                            <h3>Jeu Avancé</h3>
+                            <p id="detail-advanced">Le Seer peut faire des jeux risqués comme de fausses accusations pour faire pression sur un joueur. S'ils se révèlent instantanément suite à une accusation, il est crucial de reculer et de donner la vraie information.</p>
+                        </div>
+                        
+                        <div class="detail-section warning" id="detail-warning-section" style="display: none;">
+                            <h3>Avertissement</h3>
+                            <p id="detail-warning"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STRATEGIES SECTION -->
+        <section id="strategies" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>Conseils Pro</h1>
+                    <p class="tagline">Élevez votre niveau de jeu</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/stopwatch-svgrepo-com.svg" alt="Chronomètre" class="tip-icon-svg">
+                            <h3>Vote de Dernière Seconde</h3>
+                        </div>
+                        <p>Votez à la toute fin du Jour 1. Cela empêche de révéler plusieurs rôles et maintient le jeu équilibré et amusant pour les deux équipes. Cela aide aussi à développer vos capacités de lecture de rôle inconscientes — quand vous votez, vous avez besoin d'une idée de pour qui vous votez, entraînant votre cerveau à associer les rôles aux comportements.</p>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/typing-svgrepo-com.svg" alt="Taper" class="tip-icon-svg">
+                            <h3>Pré-écrivez Tout</h3>
+                        </div>
+                        <p>Écrivez votre action de nuit avant que le chronomètre ne se termine. Envoyez-la à la dernière seconde pour prouver votre rôle et empêcher le vol.</p>
+                        <div class="example-box">
+                            <code>"Je suis Doctor, je sauve PlayerX"</code>
+                        </div>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/eyes-fill.svg" alt="Lire" class="tip-icon-svg">
+                            <h3>Lisez l'Historique</h3>
+                        </div>
+                        <p>Vérifiez l'historique de vote et le chat. Les contradictions et schémas révèlent les loups. Votre historique individuel — ce que vous avez dit, comment vous avez voté, qui vous avez défendu — est votre bouclier. Pouvoir vendre votre cohérence, c'est ainsi que vous survivez.</p>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/mask-happy-fill.svg" alt="Leurre" class="tip-icon-svg">
+                            <h3>Leurre (Baiting)</h3>
+                        </div>
+                        <p>Faites semblant d'avoir un rôle précieux la nuit pour attirer les attaques de loups. Utile pour Hunter, Knight ou King pour protéger les vrais rôles importants. Si un leurre a fonctionné avant, maintenez cette posture — mais ne mentez pas tant que votre propre équipe vous punit.</p>
+                        <div class="example-box">
+                            <code>"Bard ici, j'enchante PlayerX"</code>
+                            <p style="margin-top: 8px; font-size: 13px; color: var(--text-tertiary);">En tant que rôle comme Hunter, envoyez ceci 5 secondes avant la fin de la nuit. Assurez-vous que le rôle n'est pas dans la partie, ou soyez prêt à vous expliquer après.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="content-block">
+                    <h2>Stratégies Générales (Jour & Nuit)</h2>
+                    <p class="section-intro">Savoir ce que fait chaque rôle ne suffit pas — vous devez savoir comment vous comporter. Chaque décision compte. Nous divisons les stratégies en phases jour et nuit.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2 class="strategies-title"><img src="/assets/img/images/sun-2-svgrepo-com.svg" alt="Jour" class="title-icon"> Stratégies de Jour</h2>
+                    <p class="section-intro">Le jour est quand tout le monde parle, accuse, défend et vote. Maîtrisez cette phase en restant calme et en paraissant crédible.</p>
+                    
+                    <div class="strategy-cards">
+                        <div class="strategy-card good">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/villager_sticker.webp" alt="Villageois" class="strategy-icon">
+                                <h4>Villageois</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>Ne faites jamais aveuglément confiance.</strong> Même les joueurs convaincants pourraient jouer la comédie. Doutez et évaluez toujours.</li>
+                                <li><strong>Analysez les contradictions et le silence.</strong> Les loups pourraient rester trop silencieux ou parler trop pour manipuler.</li>
+                                <li><strong>Ne forcez pas les révélations.</strong> Demander à tout le monde de révéler leurs rôles n'aide que les loups.</li>
+                                <li><strong>Gardez vos soupçons.</strong> Parler trop tôt laisse les suspects s'adapter. Le timing est tout.</li>
+                                <li><strong>Réfléchissez avant de voter.</strong> Le vote de dernière seconde le Jour 1 n'est pas juste une tradition — c'est une tactique qui crée un chaos utile.</li>
+                            </ul>
+                        </div>
+
+                        <div class="strategy-card evil">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/werewolf_sticker.webp" alt="Loup-Garou" class="strategy-icon">
+                                <h4>Loups</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>Apparaissez comme un villageois.</strong> Gagnez la confiance sans sembler forcé. Ne vous démarquez pas trop ou ne disparaissez pas.</li>
+                                <li><strong>Participez comme si vous étiez bon.</strong> Partagez des opinions, suggérez des théories, exprimez des doutes.</li>
+                                <li><strong>Défendez vos coéquipiers subtilement.</strong> Mais rappelez-vous : parfois sacrifier un coéquipier assure la victoire.</li>
+                                <li><strong>Maintenez la cohérence.</strong> Les erreurs logiques vous exposent. Si vous mentez, répétez votre histoire.</li>
+                                <li><strong>Votez stratégiquement.</strong> Parfois laisser mourir un loup compagnon nettoie votre image.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2 class="strategies-title"><img src="/assets/img/images/moon-sleep-svgrepo-com.svg" alt="Nuit" class="title-icon"> Stratégies de Nuit</h2>
+                    <p class="section-intro">La nuit n'est pas une pause — c'est le moment le plus technique. Ce qui se passe pendant ces secondes peut apporter un avantage décisif ou une chute.</p>
+                    
+                    <div class="strategy-cards">
+                        <div class="strategy-card good">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/villager_sticker.webp" alt="Villageois" class="strategy-icon">
+                                <h4>Villageois</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>Pré-écrivez avec clarté.</strong> Incluez votre rôle, cible et justification brève. La vitesse compte.</li>
+                                <li><strong>Trompez avec des leurres.</strong> Utilisez de fausses déclarations de rôle pour attirer les attaques de loups et protéger les vrais rôles précieux.</li>
+                                <li><strong>Protégez les rôles clés.</strong> Si vous savez qui a un rôle important (comme Seer), gardez-le en vie à tout prix.</li>
+                                <li><strong>Répétez les schémas réussis.</strong> Si un leurre a fonctionné avant, maintenez-le. Mais ne confondez pas votre propre équipe.</li>
+                            </ul>
+                        </div>
+
+                        <div class="strategy-card evil">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/werewolf_sticker.webp" alt="Loup-Garou" class="strategy-icon">
+                                <h4>Loups</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>Trompez avec de faux pré-types.</strong> Les loups les plus dangereux ont l'air bons pendant les nuits.</li>
+                                <li><strong>Planifiez des tueries impactantes.</strong> Choisissez des cibles qui brisent les chaînes d'information ou causent la panique.</li>
+                                <li><strong>Changez de style si soupçonné.</strong> Ajustez votre comportement, construisez une identité de rôle, devenez plus actif.</li>
+                                <li><strong>Exploitez les erreurs de l'équipe bonne.</strong> Parfois vous n'avez pas besoin de mentir — plantez juste le doute autour de leurs erreurs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>Erreurs Courantes</h2>
+                    <p class="section-intro">Évitez ces schémas qui nuisent à votre équipe :</p>
+                    
+                    <div class="mistakes-grid">
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/user-sound-fill.svg" alt="Parler" class="mistake-icon-svg">
+                            <h4>Trop Parler</h4>
+                            <p>Révéler inutilement ou trop s'expliquer vous fait paraître défensif.</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/chat-circle-slash-fill.svg" alt="Silencieux" class="mistake-icon-svg">
+                            <h4>Rester Silencieux</h4>
+                            <p>Ne pas participer par peur. Mieux vaut dire quelque chose de raisonnable que rien.</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/lightning-fill.svg" alt="Impulsion" class="mistake-icon-svg">
+                            <h4>Vote Impulsif</h4>
+                            <p>Voter sans fondement ou par aversion personnelle gâche les parties.</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/smiley-x-eyes-fill.svg" alt="Tard" class="mistake-icon-svg">
+                            <h4>Mauvais Pré-typage</h4>
+                            <p>Taper tard ou avec des erreurs réduit la crédibilité et risque le vol de rôle.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>Jouer Après la Mort</h2>
+                    <div class="after-death-content">
+                        <p class="section-intro">Mourir n'est pas perdre. Un bon joueur peut laisser le chemin préparé pour son équipe même après la mort.</p>
+                        <p>Vos derniers mots et votes peuvent encore aider votre équipe ou l'enterrer. Ne quittez pas la partie immédiatement — comprenez que vous jouez au-delà de votre propre survie. Comprendre cela signifie jouer au-delà de votre ego.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section id="faq" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>FAQ</h1>
+                    <p class="tagline">Questions fréquentes</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Quand dois-je révéler mon rôle ?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Uniquement quand c'est nécessaire : pendant la Défense si vous êtes jugé, ou stratégiquement pour aider votre équipe. Ne révélez jamais juste parce que quelqu'un demande.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Qu'est-ce que le "pré-typage" ?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Taper votre action de nuit avant que le chronomètre ne se termine et l'envoyer à la dernière seconde. Cela prouve l'authenticité et empêche le vol de rôle.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Pourquoi voter à la dernière seconde ?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Empêche les révélations massives de rôles le Jour 1, maintient le jeu amusant pour tout le monde, et vous aide à développer vos capacités de lecture de rôle.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Puis-je jouer après être mort ?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Oui ! Vos derniers mots et votes peuvent encore aider votre équipe. Ne quittez pas la partie immédiatement.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Qu'est-ce que la Famille Royale ?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Knight, Princess et Jester. Tant que l'un d'eux est en vie, le King ne peut pas être tué par les loups pendant la nuit.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Comment le Seer voit-il les différents rôles ?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Alpha Wolf apparaît comme BON. Shapeshifter et Jester apparaissent aléatoirement. Lycan apparaît comme BON même après sa transformation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/fr/in-app/werewolf-guide/script_fr.js"></script>
+</body>
+</html>

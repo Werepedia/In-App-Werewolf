@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#1C1C1E">
+    <title>Panduan Komuniti</title>
+
+    <link rel="icon" href="/favicon-Plato.ico" sizes="any">
+    <link rel="icon" href="/favicon-48-Plato.png" type="image/png" sizes="48x48">
+    <link rel="icon" href="/favicon-32-Plato.png" type="image/png" sizes="32x32">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/in-app/styles.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <nav class="scroll-nav">
+            <button class="nav-btn active" data-target="about">Tentang</button>
+            <button class="nav-btn" data-target="rules">Peraturan</button>
+            <button class="nav-btn" data-target="roles">Peranan</button>
+            <button class="nav-btn" data-target="strategies">Tip</button>
+            <button class="nav-btn" data-target="faq">Soalan</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="content-section active">
+            <div class="section-container">
+                <div class="section-header">
+                    <div class="header-with-logo">
+                        <h1>Panduan Komuniti</h1>
+                        <img src="/assets/img/images/werewolf_icon.png" alt="Werewolf" class="header-logo">
+                    </div>
+                    <p class="tagline">Tip dan trik daripada pemain berpengalaman</p>
+                    <p class="version-tag">Versi Permainan: 48.0.3</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Selamat Datang</h2>
+                    <p>Panduan ini disusun oleh pemain yang telah menghabiskan berjam-jam bermain Werewolf dan ingin berkongsi apa yang mereka pelajari. Anggaplah sebagai nasihat daripada rakan yang pernah berada di sana — seseorang yang boleh menunjukkan perkara-perkara kecil yang membuat perbezaan besar.</p>
+                    <p>Plato meliputi peraturan, tetapi masih banyak lagi untuk ditemui: cara membaca pemain lain, bila hendak bersuara, cara menipu dengan meyakinkan, dan apa yang diharapkan pemain berpengalaman antara satu sama lain semasa perlawanan.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Bermain dengan Baik Membawa Jauh</h2>
+                    <p>Selepas beribu-ribu perlawanan, pemain telah membangunkan beberapa peraturan asas secara semula jadi yang mengekalkan permainan yang menyeronokkan dan adil untuk semua. Tiada siapa yang suka perlawanan di mana peranan didedahkan segera atau di mana satu pemain merosakkan pengalaman untuk orang lain.</p>
+                    <p>Perkara-perkara mudah seperti menunggu hingga saat terakhir untuk mengundi (supaya anda tidak memberikan terlalu banyak maklumat awal), atau mengetahui bila hendak bersuara berbanding bila hendak mendengar, boleh mengubah sepenuhnya sejauh mana anda dan orang lain menikmati permainan. Ini bukan peraturan rasmi — hanya tabiat baik yang menjadikan setiap perlawanan lebih baik.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Cara Menang</h2>
+                    <div class="two-column">
+                        <div class="team-block good">
+                            <img src="/assets/img/images/villager_sticker.webp" alt="Villager" class="team-sticker">
+                            <h3>Penduduk Kampung</h3>
+                            <p>Hapuskan semua serigala</p>
+                        </div>
+                        <div class="team-block evil">
+                            <img src="/assets/img/images/werewolf_sticker.webp" alt="Werewolf" class="team-sticker">
+                            <h3>Serigala</h3>
+                            <p>Bunuh penduduk kampung yang cukup untuk mengatasi mereka</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>Apa yang Ada di Dalam</h2>
+                    <p><strong>Peraturan</strong> — Penyegaran pantas tentang cara Fasa Siang dan Malam berfungsi, ditambah beberapa butiran masa yang mungkin anda terlepas.</p>
+                    <p><strong>Peranan</strong> — Pecahan penuh keupayaan setiap watak, dengan tip tentang cara memainkannya dengan baik.</p>
+                    <p><strong>Tip</strong> — Strategi untuk kedua-dua pasukan, kesilapan biasa yang perlu dielakkan, dan cara membaca pemain lain.</p>
+                    <p><strong>Soalan</strong> — Jawapan kepada soalan yang sering muncul dalam perlawanan.</p>
+                </div>
+
+                <div class="content-block credits-block">
+                    <p class="credits">Panduan Komuniti ini dicipta oleh Werepedia — projek dibina oleh pemain, untuk pemain.</p>
+                    <p class="last-updated">Kemas kini terakhir: Mac 2026 | v1.1</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- RULES SECTION -->
+        <section id="rules" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>Peraturan Permainan</h1>
+                    <p class="tagline">Kuasai asas-asas</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker day"><img src="/assets/img/images/sun-2-svgrepo-com.svg" alt="Siang"></div>
+                            <div class="timeline-content">
+                                <h3 class="phase-title">Fasa Siang <span class="duration">~110s</span></h3>
+                                <div class="phase-steps">
+                                    <div class="step">
+                                        <span class="step-time">20s</span>
+                                        <p><strong>Mulai:</strong> Peranan ditetapkan</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">40s</span>
+                                        <p><strong>Perbincangan:</strong> Berkongsi maklumat, tuduh, pertahankan</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">20s</span>
+                                        <p><strong>Mengundi:</strong> Pilih suspek</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">20s</span>
+                                        <p><strong>Pertahanan:</strong> Dituduh mendedahkan peranan</p>
+                                    </div>
+                                    <div class="step">
+                                        <span class="step-time">7s</span>
+                                        <p><strong>Hukuman:</strong> Undi untuk membunuh atau mengampun</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <div class="timeline-marker night"><img src="/assets/img/images/moon-sleep-svgrepo-com.svg" alt="Malam"></div>
+                            <div class="timeline-content">
+                                <h3 class="phase-title">Fasa Malam <span class="duration">~30s</span></h3>
+                                <ul class="compact-list">
+                                    <li>Serigala mengundi siapa yang hendak dibunuh</li>
+                                    <li>Peranan khas menggunakan keupayaan mereka</li>
+                                    <li><strong>Taipkan tindakan awal!</strong> Hantar pada saat terakhir</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block highlight">
+                    <h3><img src="/assets/img/images/warning-circle-fill.svg" alt="Amaran" class="inline-icon warning-icon"> Penting</h3>
+                    <p>Jangan dedahkan peranan anda tanpa sebab! Ia membahayakan anda. Gunakan "pengundian saat terakhir" pada Hari 1.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2>Antara Muka</h2>
+                    
+                    <div class="interface-item">
+                        <h3><img src="/assets/img/images/scroll-fill.svg" alt="Sejarah" class="inline-icon history-icon"> Sejarah</h3>
+                        <p>Gulungan kertas di tengah menunjukkan semua yang berlaku dalam permainan: undian, tindakan, dan peristiwa khusus peranan. Setiap peristiwa dinomborkan secara kronologi.</p>
+                        <div class="interface-image">
+                            <img src="/ms/in-app/werewolf-guide/game_img/History_example.webp" alt="Skrin sejarah menunjukkan peristiwa permainan" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="interface-item">
+                        <h3><img src="/assets/img/images/personal-card-svgrepo-com.svg" alt="Mengundi" class="inline-icon voting-icon"> Sejarah Mengundi</h3>
+                        <p>Ketik kad mana-mana pemain untuk melihat undian terakhir mereka dan siapa yang mengundi untuk mereka. Berbeza dengan Sejarah utama, ini menunjukkan hanya tindakan muktamad — penting untuk mengesan corak serigala.</p>
+                        <div class="interface-image wide">
+                            <img src="/ms/in-app/werewolf-guide/game_img/VotingHistory_example.webp" alt="Sejarah Mengundi menunjukkan undian pemain" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>Tetapan Permainan</h2>
+                    
+                    <div class="setting-item compact">
+                        <p class="setting-desc">Tetapkan perlawanan anda sebelum bermula. Pencipta bilik memilih bilangan pemain dan agihan peranan.</p>
+                        
+                        <div class="setting-row">
+                            <img src="/assets/img/images/users-fill.svg" alt="Pemain" class="setting-icon-svg"> <strong>Pemain:</strong> 7 atau 9. Format 9 pemain disyorkan untuk pengalaman penuh.
+                        </div>
+                        
+                        <div class="setting-row">
+                            <img src="/assets/img/images/shuffle-fill.svg" alt="Rawak" class="setting-icon-svg"> <strong>Semua Peranan Rawak:</strong>
+                            <ul class="setting-options">
+                                <li><span class="option-tag on">HIDUP</span> Peranan rawak daripada 26 watak</li>
+                                <li><span class="option-tag off">MATI</span> Tetapan klasik: 3 Villagers + Doctor + Seer vs 2 Werewolves + Alpha Wolf</li>
+                            </ul>
+                        </div>
+
+                        <div class="settings-image compact">
+                            <img src="/ms/in-app/werewolf-guide/game_img/Settings_example.webp" alt="Skrin Tetapan Permainan" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ROLES SECTION -->
+        <section id="roles" class="content-section">
+            <div class="section-container roles-container">
+                <div class="section-header">
+                    <h1>Peranan</h1>
+                    <p class="tagline">Terokai semua watak</p>
+                </div>
+
+                <!-- Team Toggle -->
+                <div class="team-toggle">
+                    <button class="team-btn active" data-team="good">
+                        <span class="team-indicator good"></span>
+                        Peranan Baik
+                    </button>
+                    <button class="team-btn" data-team="evil">
+                        <span class="team-indicator evil"></span>
+                        Peranan Jahat
+                    </button>
+                </div>
+
+                <!-- Role Detail Panel -->
+                <div class="role-detail-panel">
+                    <!-- Role Selector (hidden data) -->
+                    <div class="roles-data" style="display: none;">
+                        <div class="role-data-item good-role active" data-role="seer" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="doctor" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="knight" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="princess" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="hunter" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="necromancer" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="king" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="jester" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="lycan" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="mayor" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="assassin" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="town-crier" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="lovers" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="druid" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="mystic" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="thief" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="harlot" data-team="good"></div>
+                        <div class="role-data-item good-role" data-role="bard" data-team="good"></div>
+                        <div class="role-data-item evil-role" data-role="alpha" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="werewolf" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="vampire" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="witch" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="siren" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="shapeshifter" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="nightmare" data-team="evil"></div>
+                        <div class="role-data-item evil-role" data-role="wolf-shaman" data-team="evil"></div>
+                    </div>
+
+                    <!-- Image Carousel -->
+                    <div class="role-image-carousel">
+                        <button class="carousel-arrow panel-arrow panel-prev">‹</button>
+                        <div class="role-image-wrapper">
+                            <img id="detail-image" src="https://platoapp.com/images/a8e44450-4363-11ef-bfb7-a598d323cbfc-card_seer.webp" alt="">
+                        </div>
+                        <button class="carousel-arrow panel-arrow panel-next">›</button>
+                    </div>
+
+                    <!-- Role Info -->
+                    <div class="role-detail-header">
+                        <h2 id="detail-name">Seer</h2>
+                        <span id="detail-team" class="detail-team-badge good">Peranan Baik</span>
+                    </div>
+
+                    <div class="role-detail-content">
+                        <div class="detail-section">
+                            <h3>Keupayaan</h3>
+                            <p id="detail-ability">Setiap malam, Seer boleh memeriksa pemain untuk mengetahui pasukan mana mereka tergolong. Peranan seperti Alpha Wolf, Shapeshifter, Jester, dan Lycan sebahagian atau sepenuhnya menjejaskan kesahihan maklumat yang boleh diberikan oleh peranan ini.</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h3>Strategi dan Tip</h3>
+                            <ul id="detail-tips">
+                                <li>Baca semua yang dikatakan dengan teliti untuk mengetahui siapa yang hendak diperiksa.</li>
+                                <li>Jangan dedahkan maklumat tanpa sebab. Pastikan tiada peranan seperti Wolf Shaman sebelum mendedahkan maklumat.</li>
+                                <li>Mempunyai sikap dan buatkan diri anda didengari.</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section advanced">
+                            <h3>Permainan Lanjutan</h3>
+                            <p id="detail-advanced">Seer boleh membuat permainan berisiko seperti menuduh secara palsu untuk menekan pemain. Jika mereka mendedahkan diri segera setelah dituduh, adalah penting untuk undur dan memberikan maklumat sebenar.</p>
+                        </div>
+                        
+                        <div class="detail-section warning" id="detail-warning-section" style="display: none;">
+                            <h3>Amaran</h3>
+                            <p id="detail-warning"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STRATEGIES SECTION -->
+        <section id="strategies" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>Tip Pro</h1>
+                    <p class="tagline">Tingkatkan permainan anda</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/stopwatch-svgrepo-com.svg" alt="Pemasa" class="tip-icon-svg">
+                            <h3>Pengundian Saat Terakhir</h3>
+                        </div>
+                        <p>Undi pada penghujung Hari 1. Ini menghalang pendedahan berbilang peranan dan mengekalkan permainan seimbang dan menyeronokkan untuk kedua-dua pasukan. Ia juga membantu membangunkan kemahiran membaca peranan secara tidak sedar — apabila anda mengundi, anda memerlukan beberapa gambaran tentang siapa yang anda undi, melatih otak anda untuk mengaitkan peranan dengan tingkah laku.</p>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/typing-svgrepo-com.svg" alt="Menaip" class="tip-icon-svg">
+                            <h3>Taipkan Segala-galanya Awal</h3>
+                        </div>
+                        <p>Tulis tindakan malam anda sebelum pemasa tamat. Hantarnya pada saat terakhir untuk membuktikan peranan anda dan menghalang pencurian.</p>
+                        <div class="example-box">
+                            <code>"Saya Doctor, menyelamatkan PlayerX"</code>
+                        </div>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/eyes-fill.svg" alt="Baca" class="tip-icon-svg">
+                            <h3>Baca Sejarah</h3>
+                        </div>
+                        <p>Semak sejarah mengundi dan sembang. Percanggahan dan corak mendedahkan serigala. Sejarah individu anda — apa yang anda katakan, cara anda mengundi, siapa yang anda pertahankan — adalah perisai anda. Mampu menjual keselarasan anda adalah cara anda terus hidup.</p>
+                    </div>
+
+                    <div class="tip-item">
+                        <div class="tip-header">
+                            <img src="/assets/img/images/mask-happy-fill.svg" alt="Umpan" class="tip-icon-svg">
+                            <h3>Mengumpan</h3>
+                        </div>
+                        <p>Pura-pura menjadi peranan berharga pada waktu malam untuk menarik serangan serigala. Berguna untuk Hunter, Knight, atau King untuk melindungi peranan penting yang sebenar. Jika umpan berjaya sebelum ini, kekalkan pendirian itu — tetapi jangan berbohong sehingga pasukan anda sendiri menghukum anda.</p>
+                        <div class="example-box">
+                            <code>"Bard di sini, mempesona PlayerX"</code>
+                            <p style="margin-top: 8px; font-size: 13px; color: var(--text-tertiary);">Sebagai peranan seperti Hunter, hantar mesej ini 5 saat sebelum malam berakhir. Pastikan peranan itu tidak dalam permainan, atau bersedia untuk menerangkan diri anda selepas itu.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="content-block">
+                    <h2>Strategi Umum (Siang & Malam)</h2>
+                    <p class="section-intro">Mengetahui apa yang dilakukan setiap peranan tidak cukup — anda perlu tahu cara berkelakuan. Setiap keputusan penting. Kami membahagikan strategi kepada fasa siang dan malam.</p>
+                </div>
+
+                <div class="content-block">
+                    <h2 class="strategies-title"><img src="/assets/img/images/sun-2-svgrepo-com.svg" alt="Siang" class="title-icon"> Strategi Siang</h2>
+                    <p class="section-intro">Siang adalah apabila semua orang bercakap, menuduh, mempertahankan, dan mengundi. Kuasai fasa ini dengan kekal tenang dan kelihatan dipercayai.</p>
+                    
+                    <div class="strategy-cards">
+                        <div class="strategy-card good">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/villager_sticker.webp" alt="Villager" class="strategy-icon">
+                                <h4>Penduduk Kampung</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>Jangan percaya buta.</strong> Walaupun pemain yang meyakinkan mungkin berlakon. Sentiasa ragu dan nilai.</li>
+                                <li><strong>Analisis percanggahan dan senyap.</strong> Serigala mungkin terlalu senyap atau bercakap terlalu banyak untuk memanipulasi.</li>
+                                <li><strong>Jangan paksa pendedahan.</strong> Meminta semua orang mendedahkan peranan hanya membantu serigala.</li>
+                                <li><strong>Pegang syak wasangka.</strong> Bercakap terlalu awal membiarkan suspek menyesuaikan diri. Masa adalah segala-galanya.</li>
+                                <li><strong>Fikir sebelum mengundi.</strong> Pengundian saat terakhir pada Hari 1 bukan sekadar tradisi — ia taktik yang mencipta kekeliruan yang berguna.</li>
+                            </ul>
+                        </div>
+
+                        <div class="strategy-card evil">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/werewolf_sticker.webp" alt="Werewolf" class="strategy-icon">
+                                <h4>Serigala</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>Kelihatan seperti penduduk kampung.</strong> Bina kepercayaan tanpa kelihatan dipaksa. Jangan menonjol terlalu banyak atau hilang.</li>
+                                <li><strong>Sertai seolah-olah anda baik.</strong> Kongsi pendapat, cadangkan teori, luahkan keraguan.</li>
+                                <li><strong>Pertahankan rakan sepasukan secara halus.</strong> Tetapi ingat: kadangkala mengorbankan rakan sepasukan menjamin kemenangan.</li>
+                                <li><strong>Kekalkan keselarasan.</strong> Kesilapan logik mendedahkan anda. Jika anda berbohong, ulangi cerita anda.</li>
+                                <li><strong>Undi secara strategik.</strong> Kadangkala membiarkan rakan serigala mati membersihkan imej anda.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2 class="strategies-title"><img src="/assets/img/images/moon-sleep-svgrepo-com.svg" alt="Malam" class="title-icon"> Strategi Malam</h2>
+                    <p class="section-intro">Malam bukan jeda — ia adalah saat paling teknikal. Apa yang berlaku dalam beberapa saat itu boleh membawa kelebihan yang menentukan atau kejatuhan.</p>
+                    
+                    <div class="strategy-cards">
+                        <div class="strategy-card good">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/villager_sticker.webp" alt="Villager" class="strategy-icon">
+                                <h4>Penduduk Kampung</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>Taip awal dengan jelas.</strong> Sertakan peranan, sasaran, dan justifikasi ringkas. Kelajuan penting.</li>
+                                <li><strong>Kelirukan dengan umpan.</strong> Gunakan tuntutan peranan palsu untuk menarik serangan serigala dan melindungi peranan berharga sebenar.</li>
+                                <li><strong>Lindungi peranan utama.</strong> Jika anda tahu siapa yang mempunyai peranan penting (seperti Seer), kekalkan mereka hidup dengan apa cara sekalipun.</li>
+                                <li><strong>Ulangi corak yang berjaya.</strong> Jika umpan berjaya sebelum ini, kekalkan padanya. Tetapi jangan kelirukan pasukan anda sendiri.</li>
+                            </ul>
+                        </div>
+
+                        <div class="strategy-card evil">
+                            <div class="strategy-header">
+                                <img src="/assets/img/images/werewolf_sticker.webp" alt="Werewolf" class="strategy-icon">
+                                <h4>Serigala</h4>
+                            </div>
+                            <ul class="strategy-list">
+                                <li><strong>Tipu dengan taip awal palsu.</strong> Serigala paling berbahaya kelihatan baik semasa malam.</li>
+                                <li><strong>Rancang pembunuhan yang berkesan.</strong> Pilih sasaran yang memutuskan rantaian maklumat atau menyebabkan panik.</li>
+                                <li><strong>Ubah gaya jika disyaki.</strong> Laraskan tingkah laku, bina identiti peranan, jadi lebih aktif.</li>
+                                <li><strong>Manfaatkan kesilapan pasukan baik.</strong> Kadangkala anda tidak perlu berbohong — cuma tanam keraguan di sekitar kesilapan mereka.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>Kesilapan Biasa</h2>
+                    <p class="section-intro">Elakkan corak ini yang memudaratkan pasukan anda:</p>
+                    
+                    <div class="mistakes-grid">
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/user-sound-fill.svg" alt="Bercakap" class="mistake-icon-svg">
+                            <h4>Bercakap Terlalu Banyak</h4>
+                            <p>Mendedahkan tanpa sebab atau menerangkan terlalu banyak membuatkan anda kelihatan defensif.</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/chat-circle-slash-fill.svg" alt="Senyap" class="mistake-icon-svg">
+                            <h4>Kekal Senyap</h4>
+                            <p>Tidak menyertai kerana takut. Lebih baik mengatakan sesuatu yang munasabah daripada tiada apa-apa.</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/lightning-fill.svg" alt="Impulsif" class="mistake-icon-svg">
+                            <h4>Mengundi Impulsif</h4>
+                            <p>Mengundi tanpa asas atau atas dasar tidak suka secara peribadi merosakkan perlawanan.</p>
+                        </div>
+                        <div class="mistake-item">
+                            <img src="/assets/img/images/smiley-x-eyes-fill.svg" alt="Lewat" class="mistake-icon-svg">
+                            <h4>Taip Awal yang Lemah</h4>
+                            <p>Menaip lewat atau dengan kesilapan mengurangkan kredibiliti dan membahayakan pencurian peranan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <h2>Bermain Selepas Mati</h2>
+                    <div class="after-death-content">
+                        <p class="section-intro">Mati bukan kalah. Pemain yang baik boleh meninggalkan laluan yang disediakan untuk pasukan mereka walaupun selepas kematian.</p>
+                        <p>Kata-kata dan undian terakhir anda masih boleh membantu pasukan anda atau menimbusnya. Jangan tinggalkan permainan segera — fahami bahawa anda bermain melepasi survival diri sendiri. Memahami ini bermakna bermain melepasi ego anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section id="faq" class="content-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h1>Soalan Lazim</h1>
+                    <p class="tagline">Soalan umum</p>
+                </div>
+
+                <div class="content-block">
+                    <div class="faq-list">
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Bila saya patut mendedahkan peranan saya?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Hanya apabila perlu: semasa Pertahanan jika dalam perbicaraan, atau secara strategik untuk membantu pasukan anda. Jangan sekali-kali mendedahkan hanya kerana seseorang meminta.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Apakah "taip awal"?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Menaip tindakan malam anda sebelum pemasa tamat dan menghantarnya pada saat terakhir. Ini membuktikan kesahihan dan menghalang pencurian peranan.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Mengapa pengundian saat terakhir?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Menghalang pendedahan peranan besar-besaran pada Hari 1, mengekalkan permainan menyeronokkan untuk semua, dan membantu anda membangunkan kemahiran membaca peranan.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Bolehkah saya bermain selepas mati?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Ya! Kata-kata dan undian terakhir anda masih boleh membantu pasukan anda. Jangan tinggalkan permainan segera.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Apakah Keluarga Diraja?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Knight, Princess, dan Jester. Selagi mana-mana daripada mereka masih hidup, King tidak boleh dibunuh oleh serigala pada waktu malam.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <button class="faq-question">
+                                <span>Bagaimana Seer melihat peranan berbeza?</span>
+                                <span class="faq-icon">+</span>
+                            </button>
+                            <div class="faq-answer">
+                                <p>Alpha Wolf muncul sebagai BAIK. Shapeshifter dan Jester muncul secara rawak. Lycan muncul sebagai BAIK walaupun selepas bertukar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="/ms/in-app/werewolf-guide/script_ms.js"></script>
+</body>
+</html>
